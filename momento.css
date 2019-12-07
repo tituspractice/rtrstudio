@@ -1,0 +1,140 @@
+/*!
+ =========================================================
+ * MLAC
+ =========================================================
+ */
+body {
+    font-family: 'Cairo', sans-serif;
+    font-weight: 400;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility
+}
+
+h1 {
+    font-family: 'Cairo', sans-serif;
+    font-weight: 600;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility
+}
+
+body {
+    color: #FFF;
+    font-size: 20px;
+    line-height: 37px;
+    background-color: #000
+}
+
+a {
+    color: #FFF;
+    cursor: pointer
+}
+
+a:hover,
+a:focus {
+    opacity: 0.8;
+    color: #FFF;
+    text-decoration: none
+}
+
+@media only screen and (min-width: 1201px) {
+    .container {
+        max-width: 1440px
+    }
+}
+
+main {
+    padding-top: 95px;
+    min-height: 90vh
+}
+
+h1 {
+    font-size: 84px;
+    line-height: 97px;
+    margin-bottom: 70px
+}
+
+p {
+    margin-bottom: 0
+}
+
+.social-media ul {
+    display: -ms-flexbox;
+    display: flex;
+    padding-left: 0;
+    list-style: none;
+    margin-bottom: 10px;
+    flex-wrap: wrap
+}
+
+@media only screen and (max-width: 767px) {
+    .social-media ul {
+        -ms-flex-direction: column;
+        flex-direction: column
+    }
+}
+
+.social-media ul li {
+    margin-right: 15px
+}
+
+.social-media ul li a {
+    font-size: 18px;
+    line-height: 33px;
+    padding-right: 15px;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    position: relative
+}
+
+.social-media ul li a img {
+    width: 24px;
+    height: 24px;
+    margin-right: 5px
+}
+
+.social-media ul li a:after {
+    position: absolute;
+    content: "";
+    right: 0;
+    width: 1px;
+    height: 13px;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: #979797;
+    opacity: 0.5
+}
+
+@media only screen and (max-width: 767px) {
+    .social-media ul li a:after {
+        display: none
+    }
+}
+
+.social-media ul li:last-child a:after {
+    display: none
+}
+
+footer {
+    padding-bottom: 75px
+}
+
+footer .bullet {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background-color: #FFF;
+    display: block
+}
+
+footer .copyright {
+    font-size: 12px;
+    color: #FFF;
+    line-height: 23px;
+    margin-bottom: 0;
+    text-align: right;
+    margin-bottom: 0
+}
+
+/*# sourceMappingURL=theme.css.map */
